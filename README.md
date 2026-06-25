@@ -69,7 +69,7 @@ portfolio/
 **Ajagbe Gideon**
 
 - Portfolio: https://gideon-ajagbe.vercel.app
-- LinkedIn: https://linkedin.com/in/ajagbe-gideon-000604340
+- LinkedIn: https://linkedin.com/in/ajagbegideon
 - GitHub: https://github.com/ajagbegideon
 
 ---
