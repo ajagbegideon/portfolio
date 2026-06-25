@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gideon Ajagbe — Web Developer & Aspiring AI Engineer based in Lagos, Nigeria."
+    />
+    <title>Gideon Ajagbe — Web Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">GA.</a>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <ul>
+          <li><a href="#about" class="mobile-link">About</a></li>
+          <li><a href="#skills" class="mobile-link">Skills</a></li>
+          <li><a href="#projects" class="mobile-link">Projects</a></li>
+          <li><a href="#education" class="mobile-link">Education</a></li>
+          <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <!-- Particle canvas background -->
+      <div class="hero-bg">
+        <canvas id="hero-canvas"></canvas>
+      </div>
+
+      <!-- Main content -->
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+
+        <h1 class="hero-name">Gideon Ajagbe</h1>
+
+        <p class="hero-subtitle">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </p>
+
+        <p class="hero-desc">
+          Building clean, functional web experiences — and working toward a
+          future in AI engineering and product development.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <p class="section-label">01 — About</p>
+        <h2 class="section-title">Who I Am</h2>
+
+        <div class="about-grid">
+          <!-- Left side — text -->
+          <div class="about-text reveal">
+            <p class="reveal">
+              I'm a web developer and IT student at
+              <span class="highlight">Anchor University Lagos</span>, building
+              real websites for real businesses while I study. I work with HTML,
+              CSS, JavaScript, and C++ — and I'm constantly pushing to learn
+              more.
+            </p>
+
+            <p class="reveal">
+              My long-term goal is to become an
+              <span class="highlight">AI Engineer and Product Builder</span> —
+              someone who doesn't just use AI tools but builds them. Every
+              project I take on is a step toward that.
+            </p>
+
+            <p class="reveal">
+              Based in Lagos, Nigeria. Available for freelance work locally and
+              internationally.
+            </p>
+
+            <div class="about-stats reveal">
+              <div class="stat">
+                <span class="stat-number">2+</span>
+                <span class="stat-label">Live Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">1yr+</span>
+                <span class="stat-label">Freelancing</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">200L</span>
+                <span class="stat-label">IT Student</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right side — card -->
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="about-card-inner">
+                <div class="about-initials">GA</div>
+                <div class="about-tag">Web Developer</div>
+                <div class="about-tag">AI Enthusiast</div>
+                <div class="about-tag">Product Builder</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="container">
+        <p class="section-label">02 — Skills</p>
+        <h2 class="section-title">What I Work With</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Languages</h3>
+            <div class="skill-chips">
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">C++</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Tools & Platforms</h3>
+            <div class="skill-chips">
+              <span class="chip">Git</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">Vercel</span>
+              <span class="chip">VS Code</span>
+              <span class="chip">Formspree</span>
+              <span class="chip">Google Analytics</span>
+            </div>
+          </div>
+
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Currently Learning</h3>
+            <div class="skill-chips">
+              <span class="chip chip-learning">Responsive Web Design</span>
+              <span class="chip chip-learning">JavaScript (Advanced)</span>
+              <span class="chip chip-learning">AI / ML Fundamentals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="container">
+        <p class="section-label">03 — Projects</p>
+        <h2 class="section-title">Things I've Built</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card reveal">
+            <div class="project-header reveal">
+              <div class="project-icon">✦</div>
+              <a
+                href="https://udemsluxecollections.com"
+                target="_blank"
+                class="project-link"
+                >↗ Live Site</a
+              >
+            </div>
+            <div class="reveal">
+            <h3 class="project-title">Udems Luxe Collections</h3>
+            <p class="project-desc">
+              A premium e-commerce site for a luxury goods brand. Built with a
+              black-and-gold aesthetic, WhatsApp order integration, and full SEO
+              implementation including JSON-LD structured data, Open Graph tags,
+              and Google Analytics.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">SEO</span>
+              <span class="tag">Vercel</span>
+            </div>
+          </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card reveal">
+            <div class="project-header reveal">
+              <div class="project-icon">✦</div>
+              <a
+                href="https://prestigepaintdepot.com"
+                target="_blank"
+                class="project-link"
+                >↗ Live Site</a
+              >
+            </div>
+            <div class="reveal">
+            <h3 class="project-title">Prestige Paint Depot</h3>
+            <p class="project-desc">
+              A business website for a paint shop in Ogun State. Features a
+              product gallery, WhatsApp ordering, Google Business Profile
+              integration, Open Graph tags for social sharing, and an active SEO
+              strategy.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">SEO</span>
+              <span class="tag">Vercel</span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="container">
+        <p class="section-label">04 — Education</p>
+        <h2 class="section-title">Background</h2>
+
+        <div class="education-list">
+          <div class="edu-item reveal">
+            <div class="edu-dot"></div>
+            <div class="edu-content">
+              <p class="edu-meta">2024 — Present</p>
+              <h3 class="edu-title">B.Sc. Information Technology</h3>
+              <p class="edu-place">Anchor University Lagos, Nigeria</p>
+            </div>
+          </div>
+
+          <div class="edu-item reveal">
+            <div class="edu-dot"></div>
+            <div class="edu-content">
+              <p class="edu-meta">Certification</p>
+              <h3 class="edu-title">Microsoft Office Specialist</h3>
+              <p class="edu-place">Word 2019 Associate — Microsoft</p>
+            </div>
+          </div>
+
+          <div class="edu-item reveal">
+            <div class="edu-dot"></div>
+            <div class="edu-content">
+              <p class="edu-meta">Certification</p>
+              <h3 class="edu-title">UI/UX Design Certificate</h3>
+              <p class="edu-place">Anchor University Lagos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="container">
+        <p class="section-label">05 — Contact</p>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="contact-intro">
+          Have a project in mind? Want to collaborate? Or just want to say hello
+          — my inbox is always open.
+        </p>
+
+        <div class="contact-grid reveal">
+          <!-- Left — Form -->
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formspree.io/f/mkololwz"
+            method="POST"
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p class="form-status" id="form-status"></p>
+          </form>
+
+          <!-- Right — Info -->
+          <div class="contact-info reveal">
+            <div class="contact-item reveal">
+              <span class="contact-icon">📍</span>
+              <div>
+                <p class="contact-label">Location</p>
+                <p class="contact-value">Lagos / Ogun State, Nigeria</p>
+              </div>
+            </div>
+
+            <div class="contact-item reveal">
+              <span class="contact-icon">💼</span>
+              <div>
+                <p class="contact-label">Availability</p>
+                <p class="contact-value">Open to freelance & collaboration</p>
+              </div>
+            </div>
+
+            <div class="contact-links reveal">
+              <a
+                href="https://github.com/GideonTope"
+                target="_blank"
+                class="social-link"
+                >GitHub ↗</a
+              >
+              <a
+                href="https://www.linkedin.com/in/ajagbe-gideon-000604340/"
+                target="_blank"
+                class="social-link"
+                >LinkedIn ↗</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <p>
+          Designed & built by <span class="highlight">Gideon Ajagbe</span> ·
+          2026
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript goes at the bottom -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
