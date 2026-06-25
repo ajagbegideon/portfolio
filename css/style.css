@@ -278,7 +278,7 @@ body {
 
 .btn-secondary:hover {
   background: var(--accent-glow);
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   transition:  0.7s;
 }
 
