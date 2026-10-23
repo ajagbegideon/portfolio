@@ -1,0 +1,34 @@
+GIDEON AJAGBE
+Web developer & software builder · Lagos, Nigeria · Remote collaboration
+
+WHAT I BUILD
+Business websites, storefronts and landing pages.
+Custom web applications, sales and inventory workflows.
+Desktop interfaces and scoped AI integrations.
+
+SELECTED WORK
+Evorau — https://evorau.com/
+Fashion storefront, category browsing and order requests.
+
+Prestige Paint Depot — https://www.prestigepaintdepot.com/
+Product catalogue, colour library, paint calculator and enquiries.
+
+Udems Luxe Collections — https://udemsluxecollections.com/
+Client website for bags and luggage; product presentation and ordering.
+
+Retail POS & inventory
+Sales, stock and receipts, with sample versions for food, fashion, bags and paint.
+Node.js / SQLite; AI-assisted features require configuration and testing.
+
+ScholarOS — https://scholaros-site.vercel.app/
+Team project. My contribution: desktop interface, study-session experience,
+Electron packaging and update delivery. Other team members handle other parts.
+Early build; the public project site currently marks the download as not released.
+
+Weather interface study — https://github.com/ajagbegideon/For-class
+Class exercise using placeholder API data, not live weather.
+
+CONTACT
+GitHub: https://github.com/ajagbegideon
+LinkedIn: https://www.linkedin.com/in/ajagbegideon
+WhatsApp: https://wa.me/2347040282406
