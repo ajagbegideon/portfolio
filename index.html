@@ -6,7 +6,7 @@
   <title>Gideon Ajagbe — Founder of Handlam</title>
   <meta name="description" content="Gideon Ajagbe is the founder of Handlam, a shop app for Nigerian traders. He builds business software, ordering systems and websites for Nigerian companies.">
   <link rel="canonical" href="https://gideon-ajagbe.vercel.app/">
-  <meta name="theme-color" content="#121640">
+  <meta name="theme-color" content="#07091c">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gideon-ajagbe.vercel.app/">
@@ -19,7 +19,6 @@
   <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-
   <link rel="preload" href="assets/fonts/BricolageGrotesque.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="site.css">
 
@@ -40,241 +39,254 @@
     ]
   }
   </script>
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="top" id="top">
+  <div class="loader" aria-hidden="true">
+    <div class="loader-count"><span id="count">0</span></div>
+    <div class="loader-name">Gideon Ajagbe</div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"></span></div>
+
+  <header class="top">
     <a class="mark" href="#top" aria-label="Gideon Ajagbe, home">GA</a>
-    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav id="nav" class="nav">
       <a href="#handlam">Handlam</a>
-      <a href="#systems">Systems</a>
-      <a href="#websites">Websites</a>
+      <a href="#work">Work</a>
       <a href="#experience">Experience</a>
       <a href="#about">About</a>
-      <a class="nav-cta" href="#contact">Work with me</a>
+      <a class="nav-only-mobile" href="#contact">Let's talk</a>
     </nav>
+    <a class="top-cta magnetic" href="#contact"><span>Let's talk</span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav"><span class="bar"></span><span class="bar"></span><span class="sr">Menu</span></button>
   </header>
 
   <main id="main">
-    <!-- Hero -->
-    <section class="hero">
-      <svg class="adire" viewBox="0 0 600 600" aria-hidden="true" focusable="false">
-        <defs>
-          <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-            <circle cx="12" cy="12" r="2.2"/>
-          </pattern>
-        </defs>
-        <g class="adire-rings">
-          <circle cx="300" cy="300" r="280"/>
-          <circle cx="300" cy="300" r="236"/>
-          <circle cx="300" cy="300" r="192"/>
-          <circle cx="300" cy="300" r="148"/>
-          <circle cx="300" cy="300" r="104"/>
-          <circle cx="300" cy="300" r="60"/>
-        </g>
-        <g class="adire-rays">
-          <path d="M300 20 V580 M20 300 H580 M102 102 L498 498 M498 102 L102 498"/>
-        </g>
-        <circle class="adire-dots" cx="300" cy="300" r="170" fill="url(#dots)"/>
-        <circle class="adire-sun" cx="300" cy="300" r="26"/>
-      </svg>
+    <section class="hero" id="top">
+      <div class="aurora" aria-hidden="true">
+        <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+      </div>
+      <div class="grid-lines" aria-hidden="true"></div>
 
       <div class="hero-inner">
-        <p class="hero-role"><span class="dot" aria-hidden="true"></span>Founder of <a href="https://handlam.com" rel="noopener">Handlam</a></p>
-        <h1 class="hero-name">Gideon<br>Ajagbe</h1>
-        <p class="hero-line">I build software that helps Nigerian businesses run: from the trader counting sales in a market stall to the manufacturer moving goods across the country.</p>
-        <div class="hero-actions">
-          <a class="btn btn-gold" href="#handlam">See what I'm building</a>
-          <a class="btn btn-ghost" href="https://wa.me/2347040282406?text=Hi%20Gideon%2C%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20talk%20about%20a%20project." rel="noopener">Chat on WhatsApp</a>
+        <p class="hero-role reveal"><span class="pulse" aria-hidden="true"></span>Founder of <a href="https://handlam.com" rel="noopener">Handlam</a> <span class="muted-sep" aria-hidden="true">/</span> Lagos, Nigeria</p>
+        <h1 class="hero-name">
+          <span class="line"><span class="word">Gideon</span></span>
+          <span class="line"><span class="word outline">Ajagbe</span></span>
+        </h1>
+        <p class="hero-line reveal">I build software that helps Nigerian businesses run.<br>
+          I'm a <span class="rotator"><span class="rot-word">founder.</span></span></p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-gold magnetic" href="#work"><span>See my work</span></a>
+          <a class="btn btn-glass magnetic" href="https://wa.me/2347040282406?text=Hi%20Gideon%2C%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20talk%20about%20a%20project." rel="noopener"><span>Chat on WhatsApp</span></a>
         </div>
       </div>
 
-      <ul class="hero-facts" aria-label="At a glance">
-        <li><b>1 company</b><span>Handlam, a shop app for traders, which I founded and run</span></li>
-        <li><b>3 business systems</b><span>Ordering and payments, point-of-sale, hotel front desk</span></li>
-        <li><b>3 live websites</b><span>For fashion, paint and luxury brands</span></li>
+      <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Handlam</span><i>✦</i><span>Prestige Paints</span><i>✦</i><span>Evorau</span><i>✦</i><span>Udems Luxe</span><i>✦</i><span>Treasure Palace</span><i>✦</i><span>Prestige Paint Depot</span><i>✦</i>
+        <span>Handlam</span><i>✦</i><span>Prestige Paints</span><i>✦</i><span>Evorau</span><i>✦</i><span>Udems Luxe</span><i>✦</i><span>Treasure Palace</span><i>✦</i><span>Prestige Paint Depot</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="statement">
+      <p class="big-text split">Most businesses in Nigeria still run on paper, memory and WhatsApp. I build the tools that let them see their money, their stock and their customers clearly.</p>
+      <ul class="stats">
+        <li class="reveal"><b data-count="1">1</b><span>company founded</span></li>
+        <li class="reveal"><b data-count="3">3</b><span>business systems built</span></li>
+        <li class="reveal"><b data-count="3">3</b><span>live client websites</span></li>
+        <li class="reveal"><b data-count="100">100</b><span>SEO score on Google PageSpeed</span></li>
       </ul>
     </section>
 
-    <!-- Handlam -->
     <section class="handlam" id="handlam">
+      <div class="handlam-glow" aria-hidden="true"></div>
       <div class="handlam-text">
-        <h2 class="h2">Handlam: your shop, in your pocket.</h2>
-        <p class="lead">Most small shops in Nigeria still run on memory and a notebook. Handlam is the app I founded to change that. A trader says what they sold, and Handlam counts the money, the stock and who owes them.</p>
-        <ul class="ticks">
-          <li><b>Say it, scan it or tap it.</b> Record a sale by voice, barcode or a few taps.</li>
-          <li><b>Works without network.</b> Everything is saved on the phone first and backed up later.</li>
-          <li><b>Stock that counts itself.</b> A warning comes before goods run out.</li>
-          <li><b>No forgotten debts.</b> See who owes, and send a polite reminder.</li>
-          <li><b>AI money check.</b> A plain-English look at profit, spending and what to do next.</li>
-          <li><b>Pay in the app.</b> Plans and wallet top-ups by card, transfer or USSD.</li>
+        <p class="kicker reveal">My company</p>
+        <h2 class="h2 reveal">Handlam.<br>Your shop, in your pocket.</h2>
+        <p class="lead reveal">A trader says what they sold, and Handlam counts the money, the stock and who owes them. It works on a cheap phone, even with no network.</p>
+        <ul class="feature-list">
+          <li class="reveal"><b>Say it, scan it or tap it</b><span>Record a sale by voice, barcode or a few taps.</span></li>
+          <li class="reveal"><b>Works without network</b><span>Saved on the phone first, backed up later.</span></li>
+          <li class="reveal"><b>Stock that counts itself</b><span>A warning comes before goods run out.</span></li>
+          <li class="reveal"><b>No forgotten debts</b><span>See who owes, send a polite reminder.</span></li>
+          <li class="reveal"><b>AI money check</b><span>Plain-English advice on profit and spending.</span></li>
+          <li class="reveal"><b>Pay in the app</b><span>Card, transfer or USSD, with Paystack.</span></li>
         </ul>
-        <div class="handlam-links">
-          <a class="btn btn-green" href="https://handlam.com" rel="noopener">Visit handlam.com</a>
+        <div class="handlam-links reveal">
+          <a class="btn btn-green magnetic" href="https://handlam.com" rel="noopener"><span>Visit handlam.com</span></a>
           <a class="text-link" href="https://www.tiktok.com/@handlam.app" rel="noopener">TikTok</a>
           <a class="text-link" href="https://www.instagram.com/handlam.app/" rel="noopener">Instagram</a>
         </div>
-        <p class="note">I designed, built and run Handlam end to end: the phone app, the server, payments and the admin.</p>
       </div>
-      <figure class="phone">
-        <img src="assets/handlam-app.jpg" width="390" height="844" alt="The Handlam app's welcome screen: 'Your shop, in your pocket', with an example of today's sales, profit, debts and low stock." loading="lazy">
-      </figure>
+      <div class="phone-stage">
+        <figure class="phone tilt">
+          <img src="assets/handlam-app.jpg" width="390" height="844" alt="The Handlam app welcome screen: 'Your shop, in your pocket', with an example of today's sales, profit, debts and low stock.">
+        </figure>
+        <div class="float-chip c1">₦48,500 sold today</div>
+        <div class="float-chip c2">3 items running low</div>
+        <div class="float-chip c3">Works offline</div>
+      </div>
     </section>
 
-    <!-- Systems -->
-    <section class="systems" id="systems">
+    <section class="work" id="work">
       <div class="section-head">
-        <h2 class="h2">Systems I've built for businesses</h2>
-        <p class="lead">Software that real companies use to take orders, handle money and serve customers. These are private tools, so the details stay with the clients.</p>
+        <p class="kicker reveal">Selected work</p>
+        <h2 class="h2 reveal">Things I've built<br>for real businesses.</h2>
       </div>
 
-      <article class="system">
-        <h3>Prestige Connect</h3>
-        <p class="system-for">For Prestige Paints, a paint manufacturer</p>
-        <p>A company-wide ordering platform. Dealers order, pay and follow their goods on the road. Staff record payments, and every naira is checked by a second person. Management sees profit, spending, daily cash and who owes the company, with warnings when something looks wrong.</p>
-        <p class="system-status">Approved by the company's leadership. Staff are now practising on it before full launch.</p>
-      </article>
+      <div class="stack">
+        <article class="card card-connect">
+          <div class="card-text">
+            <p class="card-tag">Business system / Prestige Paints</p>
+            <h3>Prestige Connect</h3>
+            <p>A company-wide ordering platform for a paint manufacturer. Dealers order, pay and follow their goods on the road. Every naira staff record is checked by a second person, and management sees profit, spending, daily cash and who owes the company.</p>
+            <p class="card-status">Approved by the company's leadership. Staff are practising on it before launch.</p>
+          </div>
+          <div class="card-visual visual-connect" aria-hidden="true">
+            <div class="mini-dash">
+              <div class="md-row"><span>Today's cash</span><b>Checked ✓</b></div>
+              <div class="md-row"><span>Orders on the road</span><b>Tracking</b></div>
+              <div class="md-row"><span>Who owes the company</span><b>Up to date</b></div>
+              <div class="md-bars"><i style="--h:40%"></i><i style="--h:65%"></i><i style="--h:52%"></i><i style="--h:80%"></i><i style="--h:70%"></i><i style="--h:92%"></i></div>
+            </div>
+          </div>
+        </article>
 
-      <article class="system">
-        <h3>Depot point-of-sale</h3>
-        <p class="system-for">For a Prestige paint depot in Lagos</p>
-        <p>A till for the shop floor: sales, receipts and stock in one place, so the owner knows what was sold and what is left at the end of every day.</p>
-      </article>
+        <article class="card card-evorau">
+          <div class="card-text">
+            <p class="card-tag">Website / Fashion</p>
+            <h3>Evorau</h3>
+            <p>A fashion store online. Shoppers browse the collection and send an order for retail or wholesale.</p>
+            <a class="card-link" href="https://evorau.com/" rel="noopener">Visit evorau.com</a>
+          </div>
+          <div class="card-visual"><img src="assets/evorau.jpg" width="1348" height="926" alt="Evorau website home page"></div>
+        </article>
 
-      <article class="system">
-        <h3>Treasure Palace</h3>
-        <p class="system-for">For a hotel</p>
-        <p>A front-desk system for check-ins, rooms and bookings, together with the hotel's own website.</p>
-      </article>
+        <article class="card card-prestige">
+          <div class="card-text">
+            <p class="card-tag">Website / Paint</p>
+            <h3>Prestige Paint Depot</h3>
+            <p>Paint products, a colour library, a paint calculator and quote requests, for a depot in Ota.</p>
+            <a class="card-link" href="https://www.prestigepaintdepot.com/" rel="noopener">Visit prestigepaintdepot.com</a>
+          </div>
+          <div class="card-visual"><img src="assets/prestige.jpg" width="1348" height="926" alt="Prestige Paint Depot website home page"></div>
+        </article>
+
+        <article class="card card-udems">
+          <div class="card-text">
+            <p class="card-tag">Website / Luxury</p>
+            <h3>Udems Luxe Collections</h3>
+            <p>Bags and luggage, shown beautifully, with ordering on WhatsApp. Scored 100 for SEO on Google PageSpeed Insights.</p>
+            <a class="card-link" href="https://udemsluxecollections.com/" rel="noopener">Visit udemsluxecollections.com</a>
+          </div>
+          <div class="card-visual"><img src="assets/udems.jpg" width="1348" height="926" alt="Udems Luxe Collections website home page"></div>
+        </article>
+
+        <article class="card card-pos">
+          <div class="card-text">
+            <p class="card-tag">Business systems</p>
+            <h3>Point-of-sale &amp; hotel front desk</h3>
+            <p>A till for a Prestige paint depot in Lagos: sales, receipts and stock in one place. And for Treasure Palace, a hotel front-desk system for check-ins, rooms and bookings, plus the hotel's website.</p>
+          </div>
+          <div class="card-visual visual-pos" aria-hidden="true">
+            <div class="receipt">
+              <p class="r-head">Receipt</p>
+              <p><span>Satin finish 20L</span><span>× 2</span></p>
+              <p><span>Emulsion 4L</span><span>× 5</span></p>
+              <p class="r-total"><span>Stock updated</span><span>✓</span></p>
+            </div>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <!-- Websites -->
-    <section class="websites" id="websites">
-      <div class="section-head">
-        <h2 class="h2">Websites, live and selling</h2>
-        <p class="lead">Websites I designed and built for brands that sell. Open them and look around.</p>
-      </div>
-
-      <div class="sites">
-        <a class="site" href="https://evorau.com/" rel="noopener">
-          <img src="assets/evorau.jpg" width="1348" height="926" alt="Evorau website home page" loading="lazy">
-          <span class="site-name">Evorau</span>
-          <span class="site-what">Fashion store: browse the collection and send an order for retail or wholesale.</span>
-          <span class="site-url">evorau.com</span>
-        </a>
-        <a class="site" href="https://www.prestigepaintdepot.com/" rel="noopener">
-          <img src="assets/prestige.jpg" width="1348" height="926" alt="Prestige Paint Depot website home page" loading="lazy">
-          <span class="site-name">Prestige Paint Depot</span>
-          <span class="site-what">Paint products, a colour library, a paint calculator and quote requests.</span>
-          <span class="site-url">prestigepaintdepot.com</span>
-        </a>
-        <a class="site" href="https://udemsluxecollections.com/" rel="noopener">
-          <img src="assets/udems.jpg" width="1348" height="926" alt="Udems Luxe Collections website home page" loading="lazy">
-          <span class="site-name">Udems Luxe Collections</span>
-          <span class="site-what">Bags and luggage, shown beautifully, with ordering on WhatsApp. Scored 100 for SEO on Google PageSpeed Insights.</span>
-          <span class="site-url">udemsluxecollections.com</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Experience -->
     <section class="experience" id="experience">
       <div class="section-head">
-        <h2 class="h2">Experience</h2>
-        <p class="lead">What I've done so far, in short.</p>
+        <p class="kicker reveal">Experience</p>
+        <h2 class="h2 reveal">The journey so far.</h2>
       </div>
-      <ol class="cv">
-        <li>
-          <p class="cv-when">2026 to now</p>
-          <div>
-            <h3>Founder, Handlam</h3>
-            <p>Started and run Handlam, a shop app for Nigerian traders. I built every part of it myself: the phone app that works without network, the server, card and transfer payments with Paystack (with Flutterwave as a backup), AI features, and the admin that tracks shops and money.</p>
-          </div>
+      <ol class="timeline">
+        <li class="reveal">
+          <p class="t-when">2026 — now</p>
+          <h3>Founder, Handlam</h3>
+          <p>Started and run Handlam. Built every part myself: the offline phone app, the server, payments with Paystack and Flutterwave, AI features, and the admin that tracks shops and money.</p>
         </li>
-        <li>
-          <p class="cv-when">2026</p>
-          <div>
-            <h3>Software builder, Prestige Paints</h3>
-            <p>Pitched a digital plan to the company's leadership and got it approved. Built Prestige Connect, a company-wide system for dealer orders, payments, delivery tracking and management reports, and a point-of-sale for one of its depots.</p>
-          </div>
+        <li class="reveal">
+          <p class="t-when">2026</p>
+          <h3>Software builder, Prestige Paints</h3>
+          <p>Pitched a digital plan to the company's leadership and got it approved. Built Prestige Connect for dealer orders, payments, delivery and reports, plus a point-of-sale for one of its depots.</p>
         </li>
-        <li>
-          <p class="cv-when">Ongoing</p>
-          <div>
-            <h3>Freelance web developer</h3>
-            <p>Design and build websites for Nigerian businesses, including Evorau, Prestige Paint Depot and Udems Luxe Collections, plus a hotel front-desk system and website for Treasure Palace. Each site gets search engine setup, analytics and fast loading on phones.</p>
-          </div>
+        <li class="reveal">
+          <p class="t-when">Ongoing</p>
+          <h3>Freelance web developer</h3>
+          <p>Websites for Evorau, Prestige Paint Depot and Udems Luxe Collections, and a front-desk system and website for Treasure Palace. Every site gets search setup, analytics and fast loading on phones.</p>
         </li>
-        <li>
-          <p class="cv-when">Ongoing</p>
-          <div>
-            <h3>Campus Ambassador, Cowrywise</h3>
-            <p>Represent Cowrywise, a Nigerian savings and investment app, on campus.</p>
-          </div>
+        <li class="reveal">
+          <p class="t-when">Ongoing</p>
+          <h3>Campus Ambassador, Cowrywise</h3>
+          <p>Representing Cowrywise, the Nigerian savings and investment app, on campus.</p>
         </li>
-        <li>
-          <p class="cv-when">2024 to 2028</p>
-          <div>
-            <h3>B.Sc. Information Technology, Anchor University, Lagos</h3>
-            <p>Studying while building. Certificates: Microsoft Office Specialist (Word 2019 Associate) and a UI/UX design certificate from Anchor University.</p>
-          </div>
+        <li class="reveal">
+          <p class="t-when">2024 — 2028</p>
+          <h3>B.Sc. Information Technology, Anchor University Lagos</h3>
+          <p>Studying while building. Certificates: Microsoft Office Specialist (Word 2019 Associate) and UI/UX Design from Anchor University.</p>
         </li>
       </ol>
 
-      <div class="skills">
-        <h3>Tools I build with</h3>
-        <div class="skill-groups">
-          <div>
-            <p class="skill-title">Apps and websites</p>
-            <p>JavaScript, TypeScript, React, Next.js, HTML and CSS, offline-first phone apps</p>
-          </div>
-          <div>
-            <p class="skill-title">Servers and data</p>
-            <p>PHP, Node.js, MySQL, PostgreSQL with Supabase, SQLite</p>
-          </div>
-          <div>
-            <p class="skill-title">Money and AI</p>
-            <p>Paystack and Flutterwave payments, AI features with large language models</p>
-          </div>
-          <div>
-            <p class="skill-title">Shipping</p>
-            <p>Git and GitHub, Vercel, Cloudflare, cPanel hosting, SEO and Google Analytics, Electron desktop apps</p>
-          </div>
+      <div class="tools">
+        <h3 class="reveal">Tools I build with</h3>
+        <ul class="pills">
+          <li>JavaScript</li><li>TypeScript</li><li>React</li><li>Next.js</li><li>PHP</li><li>Node.js</li>
+          <li>MySQL</li><li>PostgreSQL</li><li>Supabase</li><li>SQLite</li><li>Paystack</li><li>Flutterwave</li>
+          <li>AI and LLMs</li><li>Offline-first apps</li><li>Electron</li><li>Cloudflare</li><li>Vercel</li><li>Git &amp; GitHub</li>
+          <li>SEO</li><li>Google Analytics</li><li>UI/UX design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <p class="kicker reveal">About</p>
+      <p class="about-big split">I'm Gideon Ajagbe. I started by making websites for local brands, then saw the bigger problem. Now I'm building Handlam, and the systems that run real companies.</p>
+      <div class="about-cols">
+        <div class="reveal">
+          <p>I study Information Technology at Anchor University, Lagos, and I build for the businesses around me. I care about software that works on a cheap phone, with bad network, for someone who has never used an app like it before.</p>
+          <h3 class="strengths-title">What I bring to a team</h3>
+          <ul class="strengths">
+            <li><b>I ship whole products.</b> Design, phone app, server, database, payments and launch, not just one piece.</li>
+            <li><b>I build for real users.</b> My work is used by traders, dealers, staff and managers, not only class projects.</li>
+            <li><b>I handle money safely.</b> Live card and transfer payments, two-person checks, and nothing trusted without checking.</li>
+            <li><b>I can explain and sell an idea.</b> I pitched a digital plan to a company's leadership and got it approved.</li>
+            <li><b>I learn fast.</b> I picked up new tools for every project, from AI features to offline phone apps.</li>
+          </ul>
+        </div>
+        <div class="process reveal">
+          <h3>How I work with you</h3>
+          <ol>
+            <li><b>Listen</b><span>I learn how your business really runs today.</span></li>
+            <li><b>Build</b><span>I design and build, and show you progress as I go.</span></li>
+            <li><b>Launch</b><span>Your team practises on it before it goes live.</span></li>
+            <li><b>Support</b><span>I stay around to fix, improve and add what's next.</span></li>
+          </ol>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section class="about" id="about">
-      <div class="about-text">
-        <h2 class="h2">About me</h2>
-        <p class="lead">I'm Gideon Ajagbe, a founder and software builder from Nigeria. I study Information Technology at Anchor University, Lagos, and I build products for the businesses around me.</p>
-        <p>I started by making websites for local brands. Then I saw the bigger problem: most businesses here still run on paper, memory and WhatsApp messages. So I started Handlam, and I build systems that let companies see their money, their stock and their customers clearly.</p>
-        <p>I care about software that works on a cheap phone, with bad network, for someone who has never used an app like it before.</p>
-      </div>
-
-      <div class="process">
-        <h3>How I work with you</h3>
-        <ol>
-          <li><span><b>Listen.</b> I learn how your business really runs today.</span></li>
-          <li><span><b>Build.</b> I design and build the website or system, and show you progress as I go.</span></li>
-          <li><span><b>Launch.</b> Your team practises on it before it goes live.</span></li>
-          <li><span><b>Support.</b> I stay around to fix, improve and add what you need next.</span></li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- Contact -->
     <section class="contact" id="contact">
-      <h2 class="contact-title">Let's build something for your business.</h2>
-      <p class="contact-line">A website, an ordering system, a point-of-sale, or one slow task made easy. Tell me what you need.</p>
-      <div class="contact-actions">
-        <a class="btn btn-ink" href="https://wa.me/2347040282406?text=Hi%20Gideon%2C%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20talk%20about%20a%20project." rel="noopener">Chat on WhatsApp</a>
-        <a class="btn btn-outline" href="mailto:hello@handlam.com">hello@handlam.com</a>
+      <div class="aurora small" aria-hidden="true"><span class="blob b1"></span><span class="blob b3"></span></div>
+      <p class="kicker reveal">Have a project?</p>
+      <h2 class="contact-title split">Let's build something for your business.</h2>
+      <div class="contact-actions reveal">
+        <a class="btn btn-gold big magnetic" href="https://wa.me/2347040282406?text=Hi%20Gideon%2C%20I%20saw%20your%20website%20and%20I%27d%20like%20to%20talk%20about%20a%20project." rel="noopener"><span>Chat on WhatsApp</span></a>
+        <a class="btn btn-glass big magnetic" href="mailto:hello@handlam.com"><span>hello@handlam.com</span></a>
       </div>
-      <ul class="socials">
+      <ul class="socials reveal">
         <li><a href="https://www.linkedin.com/in/ajagbegideon" rel="noopener">LinkedIn</a></li>
         <li><a href="https://github.com/ajagbegideon" rel="noopener">GitHub</a></li>
         <li><a href="https://www.instagram.com/handlam.app/" rel="noopener">Instagram</a></li>
@@ -284,6 +296,7 @@
   </main>
 
   <footer class="foot">
+    <p class="foot-name" aria-hidden="true">Gideon Ajagbe</p>
     <p>© <span id="year">2026</span> Gideon Ajagbe. Founder of <a href="https://handlam.com" rel="noopener">Handlam</a>.</p>
   </footer>
 
